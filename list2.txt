@@ -1,0 +1,25 @@
+simon 
+ Legah 
+ Paul 
+ John 
+ Peter 
+ James 
+ Tita 
+ Pefok 
+ Linux 
+ Windows 
+ Git 
+ Maven 
+ aws 
+ gcp 
+ mgc 
+ toyota
+Simon
+Lengah
+Landmark
+Dominion
+DevOpsPharmD
+Sophia
+Karen22
+Carine
+Apex

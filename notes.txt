@@ -1,0 +1,157 @@
+Running notes for April 29, 2023  starts
+-------------------------------------
+
+
+==================================================
+================================
+As a DevOps Engineer I Work with my team to: 
+    develop: applications , 
+    test: applications, 
+    build: applications, 
+    review + qualify: applications, 
+    secure: applications, 
+    deploy: applications,
+    Access: applications,  
+    maintain: applications, 
+    manage and monitor: applications
+  
+using computerised automated Technologies. 
+    Technology stack 
+
+https://www.bankofamerica.com/
+          - login = userName/cardNumber  
+
+computerisation = Computers :
+  -  personal user = memory= 4g/8g/16g/32/64GB  = 400 - 2000USD
+       - Laptops / phones / Tablets / watches 
+
+  -  Professional  = memory= 8g---256gb  = 700usd - 20,000USD
+       - Workstations / Laptops / desktop  
+
+  -  Enterprise    = memory= 128g---4000gb  = 2,000 - 200K
+       - Servers  
+
+CSP = Cloud/Computer Service Providers: 
+2023 Convention in Toronto :
+   MD   ---> Drive   = 8 hours 
+Car Service Provider = uber/lyft ---> 5min 
+FSP: Food Service Provider = postmates/UberEATS/instantcart
+CSP: aws.amazon.com 
+     AWS, AZURE, GOOGLE, ALI BABA
+BSF  - FinTech: Banking Service Providers
+  Simon: Create account / Transfer / exchange / withdrawal
+         e-signing 
+         cash deposit / cheque deposit / loan / overdraft 
+
+zelle = 7 Indians  = 5,000 USD/200B
+
+Insurance:
+10 millions   = 900,000 employers  / 
+                800,000 100K      = 80B
+
+                100,000 BANKINGS  = 10B
+                50, 000 Engineers = 15B 
+                                    25B
+
+COMMERCIAL PROPERTIES:  
+
+40 Countries :
+
+ The Entire Agile family [2,000 employers] - 
+    Scrum Master/
+   develop / test / build / qualify / deploy / 
+   manage and monitore applications
+Labour:
+  Direct Labour   ---  
+  Indirect Labour --- :
+
+Houston --- 
+aa.com    --- tesla   
+   2,000USD for a company to create EC2-INSTANCE 
+
+CSP: aws.amazon.com 
+
+Server:
+  Name = dbserver 
+  ip-address = 34.201.34.133  
+  userName = ec2-user 
+  password =   
+  ssh-private-Key = demo31.pem  
+Using password/passwordless access:
+  ssh ec2-user@34.201.34.133 
+
+ssh-private-Key access :
+  ssh -i demo31.pem ec2-user@34.201.34.133 
+
+ 2 mins
+5 mins  = 2,000US 
+
+
+File and directory management Commands:  
+======================================
+mkdir    dirName   = 
+rmdir    dirName   = 
+rm -rf   dirName
+ls dirName  = List the content of the dir
+ls  = List the content of the pwd
+pwd 
+cd dirName 
+====================
+touch fileName = create an empty file
+Create the following files:
+  list.txt 
+  hello.py 
+  greet.sh 
+  app.java  
+  monitor.sh   
+  deploy.sh 
+option1:
+touch list.txt 
+touch hello.py  
+touch greet.sh 
+
+option2:
+touch list.txt hello.py greet.sh  
+
+Chidi  = 
+Graphical User interface - GUI :
+
+Create a file [list.txt] and add content??    
+=========================================
+1. Simon 
+2. Legah 
+3. Landmark 
+4. Dominion 
+We shall use the vi command:
+  vi list.txt 
+vi has 'insert' mode and 'command' mode:
+
+1. You start accessing the file in command mode 
+   In command mode we can't modify content
+     press the 'i' key to enter "insert" mode 
+     press "esc key" to enter command mode 
+
+2. Save and Quit: 
+    1. press "esc key" to enter command mode 
+    2. type ':wq' or ':wq!' and press enter-key 
+       to save and quit
+
+3.  Quit without saving:  
+     press "esc key" to enter command mode          
+     type ':q!' and press enter key to quit 
+     without saving
+
+ short-cut -- Save and Quit: 
+    press "esc key" to enter command mode
+    do a quick double press on the shift+z key  
+    to save and quit = press+hold '
+
+Modifying the content of a file:
+  Text editors:
+ Windows:
+    sublime text
+    bracket
+    notepad++
+    vs code 
+    atom 
+    eclipse 
