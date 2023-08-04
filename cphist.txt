@@ -1,0 +1,179 @@
+1  clear
+    2  hostname
+    3  ls
+    4  clear
+    5  ls
+    6  pwd
+    7  ls /
+    8  ls /home
+    9  sudo adduser obi
+   10  sudo adduser landmark
+   11  ls /home
+   12  hotsname
+   13  hostname
+   14  sudo hostnamectl set-hostname demo
+   15  sudo su - ec2-user
+   16  ls
+   17  clear
+   18  whoami
+   19  ls
+   20  hostname
+   21  ls /var
+   22  ls /var/log
+   23  clear
+   24  cat /proc/meminfo
+   25  cat /proc/cpuinfo
+   26  clear
+   27  ls
+   28  MKDIR tesla
+   29  Mkdir tesla
+   30  mkdir tesla
+   31  ls
+   32  mkdir tesla-dev tesla-test tesla-prod
+   33  ls
+   34  mkdir -p /test/test1
+   35  mkdir -p test/test1
+   36  ls
+   37  clear
+   38  ls
+   39  ls test
+   40  mkdir -pv dev/git/maven/aws/nexus/java
+   41  tree
+   42  sudo yum install tree
+   43  clear
+   44  tree
+   45  Tree
+   46  clear
+   47  ls
+   48  tree
+   49  mkdir -p dirName1/dirName2/dirName3
+   50  ls
+   51  clear
+   52  ls
+   53  tree
+   54  clear
+   55  ls
+   56  rmdir tesla
+   57  ls
+   58  rmdir dirName1
+   59  rmdir -rf dirName1
+   60  rm -rf dirName1
+   61  ls
+   62  clear
+   63  tree
+   64  clear
+   65  ls
+   66  rm -rf tesla*
+   67  ls
+   68  tree
+   69  pwd
+   70  clear
+   71  tree
+   72  pwd
+   73  cd dev/
+   74  pwd
+   75  cd git/
+   76  pwd
+   77  clear
+   78  tree
+   79  cd maven/aws/nexus/java/
+   80  pwd
+   81  cd ..
+   82  pwd
+   83  cd ../ ../
+   84  cd ../ ..
+   85  cd .. /..
+   86  clear
+   87  pwd
+   88  cd ..
+   89  cd -
+   90  cd ..
+   91  cd -
+   92  cd
+   93  pwd
+   94  clear
+   95  ls
+   96  ls -l
+   97  ll
+   98  pwd
+   99  clear
+  100  mkdir -p .git
+  101  ls
+  102  ls -a
+  103  touch class.txt
+  104  ls
+  105  clear
+  106  ls
+  107  ll
+  108  ls -l
+  109  echo DevOps is good
+  110  echo DevOps is good > class.txt
+  111  cat class.txt
+  112  clear
+  113  ls
+  114  ln -s me.txt class.txt
+  115  ln -s class.txt me.txt
+  116  ll
+  117  clear
+  118  whoami
+  119  sudo su -
+  120  umask
+  121  umask 0000
+  122  umask
+  123  ls
+  124  cd dev/
+  125  cd
+  126  clear
+  127  ll
+  128  #rw-r--r-- = 644
+  129  touch rich.me
+  130  ll
+  131  umask
+  132  umask 0066
+  133  umask
+  134  touch blessed.me
+  135  clear
+  136  ll
+  137  mkdir billions
+  138  ll
+  139  clear
+  140  umask
+  141  umask 0022
+  142  ll
+  143  chmod 604 blessed.me
+  144  ll
+  145  clear
+  146  ll blessed.me
+  147  chmod 664 blessed.me
+  148  ll blessed.me
+  149  ll billions/
+  150  ll
+  151  clear
+  152  ll
+  153  chmod 777 billions
+  154  ll
+  155  clear
+  156  ls /home/
+  157  ll blessed.me
+  158  ls -l blessed.me
+  159  sudo su - obi
+  160  sudo su  obi
+  161  clear
+  162  ll blessed.me
+  163  chown obi blessed.me
+  164  sudo -u root chown obi blessed.me
+  165  ll blessed.me
+  166  clear
+  167  sudo -u obi  chgroup obi blessed.me
+  168  sudo -u obi  chgrp obi blessed.me
+  169  sudo chgrp obi blessed.me
+  170  ll blessed.me
+  171  clear
+  172  ll billions/
+  173  ll bi*
+  174  ll b*
+  175  clear
+  176  ll
+  177  sudo chown obi:obi billions
+  178  ll
+  179  history
